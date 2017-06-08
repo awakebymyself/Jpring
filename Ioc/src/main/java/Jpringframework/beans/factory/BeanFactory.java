@@ -10,7 +10,7 @@ public interface BeanFactory {
      * @param name bean name
      * @return an instance of the bean
      */
-    Object getBean(String name);
+    Object getBean(String name) throws Exception;
 
     /**
      *

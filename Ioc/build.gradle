@@ -10,5 +10,10 @@ repositories {
 }
 
 dependencies {
+
+    compile group: 'org.springframework', name: 'spring-core', version: '4.3.6.RELEASE'
+    compile group: 'org.springframework', name: 'spring-beans', version: '4.3.6.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.6.RELEASE'
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
